@@ -27,7 +27,7 @@ cd benjamin-omayebu-cobblestone/benjamin_omayebu
 On Mac:
 
 ```
-pip3 install pandas scikit-learn matplotlib requests anthropic python-dotenv==1.0.1
+pip3 install pandas scikit-learn matplotlib requests anthropic python-dotenv==1.2.1
 ```
 
 On Windows or Linux:
@@ -36,7 +36,7 @@ On Windows or Linux:
 pip install -r requirements.txt
 ```
 
-Note: Python 3.8 or above is required. If you see a version error on `python-dotenv`, use `python-dotenv==1.0.1` explicitly as shown above.
+Note: Python 3.9 or above is required. If you see a version error on `python-dotenv`, use `python-dotenv==1.2.1` explicitly as shown above.
 
 **Step 4: Optional — AI commentary step only**
 
