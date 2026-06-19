@@ -10,22 +10,59 @@ Python 3.9 or above is required.
 
 ## How to Run
 
-1. Clone the repository:
+**Step 1: Clone the repository**
 
-   ```
-   git clone https://github.com/benomayebu/benjamin-omayebu-cobblestone.git
-   ```
+```
+git clone https://github.com/benomayebu/benjamin-omayebu-cobblestone.git
+```
 
-2. Navigate into the project folder:
+**Step 2: Navigate into the project folder**
 
-   ```
-   cd benjamin-omayebu-cobblestone/benjamin_omayebu
-   ```
+```
+cd benjamin-omayebu-cobblestone/benjamin_omayebu
+```
 
-3. Install dependencies: `pip install -r requirements.txt`
-4. The pipeline fetches all data live from the Elexon public API, which requires **no API key**.
-5. For the AI commentary step only, create a `.env` file in the project root containing `ANTHROPIC_API_KEY=your-key`. If this file is not present the pipeline still runs and skips only the commentary step.
-6. Run `python main.py`. That single command runs the full pipeline end to end and produces all outputs.
+**Step 3: Install dependencies**
+
+On Mac:
+
+```
+pip3 install pandas scikit-learn matplotlib requests anthropic python-dotenv==1.0.1
+```
+
+On Windows or Linux:
+
+```
+pip install -r requirements.txt
+```
+
+Note: Python 3.8 or above is required. If you see a version error on `python-dotenv`, use `python-dotenv==1.0.1` explicitly as shown above.
+
+**Step 4: Optional — AI commentary step only**
+
+Create a `.env` file in the project root containing your Anthropic API key:
+
+```
+ANTHROPIC_API_KEY=your-key-here
+```
+
+If this file is not present the pipeline runs fully and skips only the commentary step. The `ai_logs` folder contains the complete AI interaction from the author's run and can be reviewed without a key.
+
+**Step 5: Run the pipeline**
+
+On Mac:
+
+```
+python3 main.py
+```
+
+On Windows or Linux:
+
+```
+python main.py
+```
+
+The full pipeline runs end to end in approximately 2 to 3 minutes and produces all outputs automatically.
 
 ## Data Sources
 
