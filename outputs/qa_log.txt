@@ -1,0 +1,18 @@
+============================================================
+QA LOG - merged GB day-ahead price dataset
+Generated: 2026-06-19T01:52:21.132363+00:00
+============================================================
+Total rows: 2208
+Date range: 2026-03-20 21:00:00+00:00 to 2026-06-20 20:00:00+00:00
+
+Missing values per column:
+  startTime: 0
+  price_gbp_mwh: 47
+  wind_mw: 0
+  demand_mw: 20
+
+Duplicate startTime values: 0
+Rows with negative wind_mw: 0
+Rows with negative demand_mw: 0
+Rows with price_gbp_mwh < -500 or > 3000: 0
+============================================================

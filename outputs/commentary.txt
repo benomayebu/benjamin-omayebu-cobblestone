@@ -1,0 +1,8 @@
+**Model Performance**
+The improved gradient boosting model beat the seasonal naive baseline on the held-out test set. It achieved a mean absolute error of GBP 18.84/MWh and a root mean squared error of GBP 26.65/MWh, compared to GBP 23.17/MWh and GBP 34.13/MWh respectively for the baseline. This means the model is producing meaningfully tighter forecasts than the simple benchmark.
+
+**Trading View**
+The view for the front-week prompt contract is SHORT. The model's average forecast of GBP 85.15/MWh sits 9.58% below the recent reference level of GBP 94.18/MWh. This means the prompt contract looks expensive relative to where the model expects prices to land, so the trade is to sell now and look to buy back at a lower level later.
+
+**Invalidation**
+The short view would be invalidated by a sharp downward revision to wind forecasts or a significant rise in demand forecasts, either of which would push net demand higher and drive prices back up. Traders should monitor wind and demand forecast updates closely, and close or reverse the short position if either of those conditions materialises.

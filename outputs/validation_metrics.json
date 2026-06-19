@@ -1,0 +1,11 @@
+{
+  "baseline_seasonal_naive": {
+    "MAE": 23.16985119047619,
+    "RMSE": 34.13041688866469
+  },
+  "improved_hist_gradient_boosting": {
+    "MAE": 18.842470776179955,
+    "RMSE": 26.654510578060634
+  },
+  "improved_beats_baseline": true
+}

@@ -1,0 +1,9 @@
+{
+  "view": "SHORT",
+  "forecast_avg_gbp_mwh": 85.15,
+  "reference_level_gbp_mwh": 94.18,
+  "deviation_pct": -9.58,
+  "reasoning": "The model's average forecast of GBP 85.15/MWh is 9.6% below the recent 14-day trailing average of GBP 94.18/MWh, so the front-week prompt contract looks expensive relative to where the model expects prices to sit; a trader would sell prompt now expecting to buy back lower later.",
+  "invalidation": "A sharp downward revision to wind forecasts or a significant rise in demand forecasts would raise net demand and push prices back up; close or reverse the short if either materialises.",
+  "data_limitation": "The reference level is a 14-day trailing average of realised day-ahead prices, used as a transparent, documented proxy for the live quoted front-week prompt curve. In a real trading seat the forecast average would be compared against the broker-screen front-week price; that feed is not available in this environment, so the trailing average stands in for it."
+}
